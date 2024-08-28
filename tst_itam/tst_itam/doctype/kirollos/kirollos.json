@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name_here}",
+ "creation": "2024-08-28 14:29:47.961074",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "here_name_section",
+  "name_here",
+  "todays_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "here_name_section",
+   "fieldtype": "Section Break",
+   "label": "Here name"
+  },
+  {
+   "fieldname": "name_here",
+   "fieldtype": "Data",
+   "label": "Name Here"
+  },
+  {
+   "fieldname": "todays_date",
+   "fieldtype": "Date",
+   "label": "Today's Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-28 14:30:35.477647",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "kirollos",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -5,6 +5,7 @@ app_description = "TST ITAM"
 app_email = "kirollos@tst.ly"
 app_license = "mit"
 
+fixtures = ["kirollos"]
 # Apps
 # ------------------
 
