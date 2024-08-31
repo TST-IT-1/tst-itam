@@ -8,7 +8,8 @@
  "field_order": [
   "here_name_section",
   "name_here",
-  "todays_date"
+  "todays_date",
+  "phone_number"
  ],
  "fields": [
   {
@@ -25,11 +26,16 @@
    "fieldname": "todays_date",
    "fieldtype": "Date",
    "label": "Today's Date"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-28 14:30:35.477647",
+ "modified": "2024-08-31 16:03:07.078309",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "kirollos",
