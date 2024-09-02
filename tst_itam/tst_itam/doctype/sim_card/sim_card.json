@@ -40,7 +40,7 @@
    "fieldname": "employee_name",
    "fieldtype": "Link",
    "label": "Employee Name",
-   "options": "T-Employee"
+   "options": "T Employee"
   },
   {
    "fieldname": "handover_scanned_form",
@@ -50,7 +50,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 13:48:08.954607",
+ "modified": "2024-09-02 15:15:09.488189",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Sim Card",

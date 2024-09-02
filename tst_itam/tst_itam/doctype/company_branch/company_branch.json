@@ -27,7 +27,7 @@
    "fieldname": "administrator",
    "fieldtype": "Link",
    "label": "Administrator",
-   "options": "T-Employee"
+   "options": "T Employee"
   },
   {
    "fieldname": "llnumber",
@@ -37,7 +37,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 14:05:53.367048",
+ "modified": "2024-09-02 15:15:09.769266",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Company Branch",

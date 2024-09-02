@@ -69,7 +69,7 @@
    "fieldname": "employee_name",
    "fieldtype": "Link",
    "label": "Employee Name",
-   "options": "T-Employee"
+   "options": "T Employee"
   },
   {
    "fieldname": "column_break_tknl",
@@ -78,7 +78,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 13:55:05.247195",
+ "modified": "2024-09-02 15:15:09.617860",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Mobile Phone",
