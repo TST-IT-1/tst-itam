@@ -1,0 +1,37 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "cred Service",
+  "modified": "2024-09-02 12:38:36.241513",
+  "name": "Mail",
+  "name1": "Mail"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "cred Service",
+  "modified": "2024-09-02 12:38:58.845614",
+  "name": "Teams",
+  "name1": "Teams"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "cred Service",
+  "modified": "2024-09-02 12:39:14.785862",
+  "name": "365",
+  "name1": "365"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "cred Service",
+  "modified": "2024-09-02 12:43:21.149254",
+  "name": "Nextcloud",
+  "name1": "Nextcloud"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "cred Service",
+  "modified": "2024-09-02 12:44:36.158133",
+  "name": "test",
+  "name1": "test"
+ }
+]

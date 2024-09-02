@@ -1,0 +1,200 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:",
+ "creation": "2024-09-02 10:50:35.121956",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_hardware_information_section",
+  "employee_name",
+  "category",
+  "serial_number",
+  "operation_system",
+  "condition",
+  "column_break_ntfa",
+  "model",
+  "brand",
+  "status",
+  "processor",
+  "ram",
+  "column_break_iokm",
+  "gpu",
+  "img",
+  "storage_size",
+  "storage_category",
+  "size",
+  "color",
+  "remote_access_and_network_information_section",
+  "any_desk",
+  "team_viewer",
+  "computer_name",
+  "column_break_zebr",
+  "mac_address",
+  "ip_address"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_hardware_information_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Hardware Information"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category ",
+   "options": "\nPC Workstation\nPC Tower\nPC Desktop\nLaptop\nALL IN ONE (AIO)"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "operation_system",
+   "fieldtype": "Select",
+   "label": "Operation System",
+   "options": "\nWindows 7 Pro\nWindows 10 Pro\nWindows 11 Pro\nLinux\nMAC OS"
+  },
+  {
+   "fieldname": "condition",
+   "fieldtype": "Select",
+   "label": "Condition",
+   "options": "\nBrand New\nUSED"
+  },
+  {
+   "fieldname": "column_break_ntfa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "label": "Brand",
+   "options": "t-Brand"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "processor",
+   "fieldtype": "Data",
+   "label": "Processor"
+  },
+  {
+   "fieldname": "ram",
+   "fieldtype": "Data",
+   "label": "Ram"
+  },
+  {
+   "fieldname": "column_break_iokm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gpu",
+   "fieldtype": "Data",
+   "label": "GPU"
+  },
+  {
+   "fieldname": "img",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "img"
+  },
+  {
+   "fieldname": "storage_size",
+   "fieldtype": "Data",
+   "label": "Storage Size"
+  },
+  {
+   "fieldname": "storage_category",
+   "fieldtype": "Select",
+   "label": "Storage Category ",
+   "options": "\nM.2 SSD\nSSD\nHDD"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Data",
+   "label": "Color"
+  },
+  {
+   "fieldname": "remote_access_and_network_information_section",
+   "fieldtype": "Section Break",
+   "label": "Remote Access And Network Information"
+  },
+  {
+   "fieldname": "any_desk",
+   "fieldtype": "Data",
+   "label": "Any Desk"
+  },
+  {
+   "fieldname": "team_viewer",
+   "fieldtype": "Data",
+   "label": "Team Viewer"
+  },
+  {
+   "fieldname": "computer_name",
+   "fieldtype": "Data",
+   "label": "Computer Name"
+  },
+  {
+   "fieldname": "column_break_zebr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mac_address",
+   "fieldtype": "Data",
+   "label": "MAC Address"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  }
+ ],
+ "image_field": "img",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-02 13:55:27.299083",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "Computer Devices",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

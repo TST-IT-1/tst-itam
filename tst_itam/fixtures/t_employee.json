@@ -1,0 +1,44 @@
+[
+ {
+  "copmany": "TST",
+  "data_jgin": null,
+  "docstatus": 0,
+  "doctype": "T-Employee",
+  "emp_name": "Shahnawaz khan",
+  "gender": "Male",
+  "manager": null,
+  "modified": "2024-09-02 11:36:10.324799",
+  "name": "Shahnawaz khan",
+  "personal_email": "nawaz@tst.ly",
+  "phone_number": null,
+  "position": "General Manager / IT Manager"
+ },
+ {
+  "copmany": null,
+  "data_jgin": null,
+  "docstatus": 0,
+  "doctype": "T-Employee",
+  "emp_name": "Duaa ",
+  "gender": "",
+  "manager": null,
+  "modified": "2024-09-02 14:01:08.231347",
+  "name": "Duaa",
+  "personal_email": null,
+  "phone_number": null,
+  "position": null
+ },
+ {
+  "copmany": "TST",
+  "data_jgin": null,
+  "docstatus": 0,
+  "doctype": "T-Employee",
+  "emp_name": "Kirollos Wahba",
+  "gender": "Male",
+  "manager": "Shahnawaz khan",
+  "modified": "2024-09-02 11:36:18.395942",
+  "name": "Kirollos Wahba",
+  "personal_email": "kirollos@tst.ly",
+  "phone_number": "+971-561840907",
+  "position": "IT Engineer"
+ }
+]
