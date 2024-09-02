@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{emp_name}",
+ "creation": "2024-09-02 15:20:59.383971",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_basic_information_section",
+  "emp_name",
+  "copmany",
+  "position",
+  "gender",
+  "column_break_qgyi",
+  "manager",
+  "phone_number",
+  "personal_email",
+  "data_jgin"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "Employee Basic Information"
+  },
+  {
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "copmany",
+   "fieldtype": "Data",
+   "label": "Copmany"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position "
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "column_break_qgyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "manager",
+   "fieldtype": "Link",
+   "label": "Manager",
+   "options": "T Employee"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "personal_email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "data_jgin",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-02 15:21:24.757071",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "T Employee",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
