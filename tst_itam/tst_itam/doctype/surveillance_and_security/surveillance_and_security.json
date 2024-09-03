@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 15:59:50.234934",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "device",
+  "brand",
+  "model",
+  "branch",
+  "column_break_ajlk",
+  "serial_number",
+  "mac_address",
+  "ip_address",
+  "connectivity",
+  "section_break_fvgt",
+  "dac_users_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "device",
+   "fieldtype": "Select",
+   "label": "Device",
+   "options": "\nIP Camera\nAnalog Camera\nNVR\nDVR\nFP Device\nDAC"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "mac_address",
+   "fieldtype": "Data",
+   "label": "Mac Address"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "label": "Brand",
+   "options": "t-Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "connectivity",
+   "fieldtype": "Select",
+   "label": "Connectivity ",
+   "options": "\nEthernet\nWI-FI"
+  },
+  {
+   "depends_on": "eval:doc.device == \"DAC\"",
+   "fieldname": "dac_users_table",
+   "fieldtype": "Table",
+   "label": "Dac Users Table ",
+   "options": "dac-user-table"
+  },
+  {
+   "fieldname": "column_break_ajlk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_fvgt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Company Branch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-03 11:31:40.700609",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "Surveillance and Security",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

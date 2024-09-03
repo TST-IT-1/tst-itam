@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-03 10:43:08.656773",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "device_type",
+  "linked_to_pc",
+  "model",
+  "brand",
+  "column_break_bagv",
+  "branch",
+  "serial_number",
+  "color",
+  "connectivity"
+ ],
+ "fields": [
+  {
+   "fieldname": "device_type",
+   "fieldtype": "Select",
+   "label": "Device Type",
+   "options": "\nMouse\nKeyboard"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Data",
+   "label": "Color"
+  },
+  {
+   "fieldname": "linked_to_pc",
+   "fieldtype": "Link",
+   "label": "Linked to PC ",
+   "options": "Computer Devices"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "label": "Brand",
+   "options": "t-Brand"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Company Branch"
+  },
+  {
+   "fieldname": "column_break_bagv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "connectivity",
+   "fieldtype": "Select",
+   "label": "Connectivity ",
+   "options": "\nEthernet\nWI-FI\nCable"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-03 10:49:42.371506",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "Accessories",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

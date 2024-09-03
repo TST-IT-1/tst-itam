@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 15:37:49.801921",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "brand",
+  "model",
+  "branch",
+  "category",
+  "connection",
+  "serial_number",
+  "ink",
+  "column_break_ctee",
+  "ip_address",
+  "mac_address",
+  "snmp_community",
+  "snmp_pass"
+ ],
+ "fields": [
+  {
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "label": "Brand",
+   "options": "t-Brand"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "t-Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category ",
+   "options": "\nPrinter\nCopier Machine\nPrinter and Scanner\nScanner"
+  },
+  {
+   "fieldname": "connection",
+   "fieldtype": "Select",
+   "label": "Connection",
+   "options": "\nEthernet\nWi-Fi\nEthernet and Wi-Fi"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "fieldname": "mac_address",
+   "fieldtype": "Data",
+   "label": "Mac Address"
+  },
+  {
+   "fieldname": "ink",
+   "fieldtype": "Select",
+   "label": "Ink",
+   "options": "\nWhite and Black\nColor"
+  },
+  {
+   "fieldname": "snmp_community",
+   "fieldtype": "Date",
+   "label": "SNMP Community"
+  },
+  {
+   "fieldname": "snmp_pass",
+   "fieldtype": "Data",
+   "label": "SNMP Pass"
+  },
+  {
+   "fieldname": "column_break_ctee",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-02 15:43:39.502850",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "Printers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

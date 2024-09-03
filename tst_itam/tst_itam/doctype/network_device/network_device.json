@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 15:43:55.246889",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_information_section",
+  "brand",
+  "model",
+  "device_category",
+  "column_break_lxwg",
+  "branch",
+  "network_information_section",
+  "mac_address",
+  "ip_address",
+  "snmp_community",
+  "snmp_pass",
+  "column_break_fufr",
+  "serial_number",
+  "device_mount"
+ ],
+ "fields": [
+  {
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "label": "Brand",
+   "options": "t-Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "device_category",
+   "fieldtype": "Select",
+   "label": "Device Category ",
+   "options": "\nRouter\nSwitch\nManaged Switch\nAccess Point\nFirewall"
+  },
+  {
+   "fieldname": "column_break_lxwg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Company Branch"
+  },
+  {
+   "fieldname": "network_information_section",
+   "fieldtype": "Section Break",
+   "label": "Network Information"
+  },
+  {
+   "fieldname": "mac_address",
+   "fieldtype": "Data",
+   "label": "Mac Address"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "fieldname": "snmp_community",
+   "fieldtype": "Data",
+   "label": "SNMP Community "
+  },
+  {
+   "fieldname": "snmp_pass",
+   "fieldtype": "Data",
+   "label": "SNMP Pass"
+  },
+  {
+   "fieldname": "column_break_fufr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "device_mount",
+   "fieldtype": "Select",
+   "label": "Device Mount",
+   "options": "\nRack Device\nNormal Device"
+  },
+  {
+   "fieldname": "basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-02 15:59:20.277967",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "Network Device",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
