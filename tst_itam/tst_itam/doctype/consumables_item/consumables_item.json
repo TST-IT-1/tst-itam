@@ -9,7 +9,8 @@
   "con_cat",
   "branch",
   "room",
-  "details"
+  "details",
+  "computer"
  ],
  "fields": [
   {
@@ -34,11 +35,17 @@
    "fieldtype": "Link",
    "label": "Consumables Category ",
    "options": "Consumables Categories"
+  },
+  {
+   "fieldname": "computer",
+   "fieldtype": "Link",
+   "label": "Computer",
+   "options": "Computer Devices"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-03 11:52:30.911573",
+ "modified": "2024-09-04 14:47:57.277727",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Consumables Item",

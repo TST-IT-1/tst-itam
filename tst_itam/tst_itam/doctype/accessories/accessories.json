@@ -6,7 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "device_type",
-  "linked_to_pc",
+  "computer",
   "model",
   "brand",
   "column_break_bagv",
@@ -38,12 +38,6 @@
    "label": "Color"
   },
   {
-   "fieldname": "linked_to_pc",
-   "fieldtype": "Link",
-   "label": "Linked to PC ",
-   "options": "Computer Devices"
-  },
-  {
    "fieldname": "brand",
    "fieldtype": "Link",
    "label": "Brand",
@@ -64,11 +58,17 @@
    "fieldtype": "Select",
    "label": "Connectivity ",
    "options": "\nEthernet\nWI-FI\nCable"
+  },
+  {
+   "fieldname": "computer",
+   "fieldtype": "Link",
+   "label": "Linked to PC ",
+   "options": "Computer Devices"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-03 10:49:42.371506",
+ "modified": "2024-09-04 14:49:12.000750",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Accessories",

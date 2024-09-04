@@ -5,8 +5,8 @@ app_description = "TST ITAM"
 app_email = "kirollos@tst.ly"
 app_license = "mit"
 
-fixtures = ["Computer Devices","Company Branch","T-Company","cred Service","Credential"
-            ,"Sim Card","t-Brand","Mobile Phone","T Employee"
+fixtures = ["ip-address","Credential-table","emp-files-table","Consumables Item","Consumables Categories","Branch Rooms","dac-user-table","Accessories","Surveillance and Security","Network Device","Printers","T Employee","Company Branch","t-Brand","Mobile Phone","Sim Card","cred Service","Credential","T-Company","Computer Devices"
+
             ]
 # Apps
 # ------------------

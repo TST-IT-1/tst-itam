@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:",
+ "autoname": "format:PC-{branch}-{###}",
  "creation": "2024-09-02 10:50:35.121956",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -12,6 +12,8 @@
   "serial_number",
   "operation_system",
   "condition",
+  "branch",
+  "room",
   "column_break_ntfa",
   "model",
   "brand",
@@ -41,8 +43,9 @@
   },
   {
    "fieldname": "employee_name",
-   "fieldtype": "Data",
-   "label": "Employee Name"
+   "fieldtype": "Link",
+   "label": "Employee Name",
+   "options": "T Employee"
   },
   {
    "fieldname": "category",
@@ -166,12 +169,33 @@
    "fieldname": "ip_address",
    "fieldtype": "Data",
    "label": "IP Address"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Company Branch"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Room",
+   "options": "Branch Rooms"
   }
  ],
  "image_field": "img",
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-02 13:55:27.299083",
+ "links": [
+  {
+   "link_doctype": "Consumables Item",
+   "link_fieldname": "computer"
+  },
+  {
+   "link_doctype": "Accessories",
+   "link_fieldname": "computer"
+  }
+ ],
+ "modified": "2024-09-04 14:49:57.886711",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Computer Devices",

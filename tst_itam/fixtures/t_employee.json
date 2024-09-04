@@ -1,6 +1,7 @@
 [
  {
   "copmany": "TST",
+  "credential": [],
   "data_jgin": null,
   "docstatus": 0,
   "doctype": "T Employee",
@@ -11,34 +12,78 @@
   "name": "Shahnawaz khan",
   "personal_email": "nawaz@tst.ly",
   "phone_number": null,
-  "position": "General Manager / IT Manager"
+  "position": "General Manager / IT Manager",
+  "table_ftkc": []
  },
  {
   "copmany": "TST",
+  "credential": [
+   {
+    "employee_name": "Kirollos Wahba",
+    "parent": "Kirollos Wahba",
+    "parentfield": "credential",
+    "parenttype": "T Employee",
+    "server": null,
+    "service": "Mail",
+    "user__id": "Kirollos@tst.ly-Mail"
+   }
+  ],
   "data_jgin": null,
   "docstatus": 0,
   "doctype": "T Employee",
   "emp_name": "Kirollos Wahba",
   "gender": "Male",
   "manager": "Shahnawaz khan",
-  "modified": "2024-09-02 11:36:18.395942",
+  "modified": "2024-09-03 15:19:16.488711",
   "name": "Kirollos Wahba",
   "personal_email": "kirollos@tst.ly",
   "phone_number": "+971-561840907",
-  "position": "IT Engineer"
+  "position": "IT Engineer",
+  "table_ftkc": [
+   {
+    "computer": "ci97c868hb",
+    "employee_name": "Kirollos Wahba",
+    "mobile": null,
+    "parent": "Kirollos Wahba",
+    "parentfield": "table_ftkc",
+    "parenttype": "T Employee",
+    "sim_card": null
+   },
+   {
+    "computer": null,
+    "employee_name": "Kirollos Wahba",
+    "mobile": "9nqkssd3r1",
+    "parent": "Kirollos Wahba",
+    "parentfield": "table_ftkc",
+    "parenttype": "T Employee",
+    "sim_card": null
+   }
+  ]
  },
  {
-  "copmany": null,
+  "copmany": "ESNAD",
+  "credential": [
+   {
+    "employee_name": "Duaa",
+    "parent": "Duaa",
+    "parentfield": "credential",
+    "parenttype": "T Employee",
+    "server": null,
+    "service": null,
+    "user__id": "-"
+   }
+  ],
   "data_jgin": null,
   "docstatus": 0,
   "doctype": "T Employee",
   "emp_name": "Duaa ",
   "gender": "",
-  "manager": null,
-  "modified": "2024-09-02 14:01:08.231347",
+  "manager": "Shahnawaz khan",
+  "modified": "2024-09-04 13:34:03.434196",
   "name": "Duaa",
   "personal_email": null,
-  "phone_number": null,
-  "position": null
+  "phone_number": "",
+  "position": null,
+  "table_ftkc": []
  }
 ]

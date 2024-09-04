@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:{emp_name}",
  "creation": "2024-09-02 15:20:59.383971",
@@ -15,7 +16,10 @@
   "manager",
   "phone_number",
   "personal_email",
-  "data_jgin"
+  "data_jgin",
+  "section_break_efkf",
+  "table_ftkc",
+  "credential"
  ],
  "fields": [
   {
@@ -26,12 +30,19 @@
   {
    "fieldname": "emp_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Employee Name"
   },
   {
    "fieldname": "copmany",
-   "fieldtype": "Data",
-   "label": "Copmany"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Copmany",
+   "options": "T-Company"
   },
   {
    "fieldname": "position",
@@ -51,27 +62,69 @@
   {
    "fieldname": "manager",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Manager",
    "options": "T Employee"
   },
   {
    "fieldname": "phone_number",
    "fieldtype": "Phone",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Phone Number"
   },
   {
    "fieldname": "personal_email",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Email"
   },
   {
    "fieldname": "data_jgin",
    "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_efkf",
+   "fieldtype": "Section Break",
+   "label": "Files"
+  },
+  {
+   "fieldname": "table_ftkc",
+   "fieldtype": "Table",
+   "label": "Custodies",
+   "options": "emp-files-table"
+  },
+  {
+   "fieldname": "credential",
+   "fieldtype": "Table",
+   "label": "Credential",
+   "options": "Credential-table"
   }
  ],
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-02 15:21:24.757071",
+ "hide_toolbar": 1,
+ "links": [
+  {
+   "link_doctype": "Mobile Phone",
+   "link_fieldname": "employee_name"
+  },
+  {
+   "link_doctype": "Sim Card",
+   "link_fieldname": "employee_name"
+  },
+  {
+   "link_doctype": "Computer Devices",
+   "link_fieldname": "employee_name"
+  },
+  {
+   "link_doctype": "Credential",
+   "link_fieldname": "employee_name"
+  }
+ ],
+ "modified": "2024-09-04 13:32:38.330957",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "T Employee",
@@ -93,5 +146,8 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }
