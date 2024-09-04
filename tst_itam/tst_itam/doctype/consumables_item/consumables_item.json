@@ -7,10 +7,12 @@
  "engine": "InnoDB",
  "field_order": [
   "con_cat",
+  "computer",
+  "column_break_plrq",
   "branch",
   "room",
-  "details",
-  "computer"
+  "section_break_yuvz",
+  "details"
  ],
  "fields": [
   {
@@ -27,7 +29,7 @@
   },
   {
    "fieldname": "details",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Details"
   },
   {
@@ -41,11 +43,19 @@
    "fieldtype": "Link",
    "label": "Computer",
    "options": "Computer Devices"
+  },
+  {
+   "fieldname": "column_break_plrq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_yuvz",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 14:47:57.277727",
+ "modified": "2024-09-04 15:10:15.938389",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Consumables Item",
