@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-03 13:20:33.792367",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "computer",
+  "mobile",
+  "sim_card"
+ ],
+ "fields": [
+  {
+   "depends_on": "eval:doc.Custody == \"Computer\"",
+   "fieldname": "computer",
+   "fieldtype": "Link",
+   "label": "Computer",
+   "link_filters": "[[\"Mobile Phone\",\"employee_name\",\"=\",\"eval: doc.employee_name\"]]",
+   "options": "Computer Devices"
+  },
+  {
+   "depends_on": "eval:doc.Custody == \"Mobile\"",
+   "fieldname": "mobile",
+   "fieldtype": "Link",
+   "label": "Mobile",
+   "link_filters": "[[\"Mobile Phone\",\"employee_name\",\"=\",\"eval: doc.employee_name\"]]",
+   "options": "Mobile Phone"
+  },
+  {
+   "depends_on": "eval:doc.Custody == \"Sim Card\"",
+   "fieldname": "sim_card",
+   "fieldtype": "Link",
+   "label": "Sim Card",
+   "link_filters": "[[\"Sim Card\",\"employee_name\",\"=\",\"eval: doc.employee_name\"]]",
+   "options": "Sim Card"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Link",
+   "label": "Employee Name",
+   "link_filters": "[[\"T Employee\",\"name\",\"=\",\"eval:parent.emp_name\"]]",
+   "options": "T Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-03 14:51:22.013429",
+ "modified_by": "Administrator",
+ "module": "TST ITAM",
+ "name": "emp-files-table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "con_name": "HDMI Cable",
+  "docstatus": 0,
+  "doctype": "Consumables Categories",
+  "modified": "2024-09-03 11:47:01.013445",
+  "name": "HDMI Cable"
+ },
+ {
+  "con_name": "VGA Cable",
+  "docstatus": 0,
+  "doctype": "Consumables Categories",
+  "modified": "2024-09-03 11:47:24.901271",
+  "name": "VGA Cable"
+ },
+ {
+  "con_name": "Ethernet Cable",
+  "docstatus": 0,
+  "doctype": "Consumables Categories",
+  "modified": "2024-09-03 11:52:54.249960",
+  "name": "Ethernet Cable"
+ },
+ {
+  "con_name": "Power Cable",
+  "docstatus": 0,
+  "doctype": "Consumables Categories",
+  "modified": "2024-09-03 11:47:14.148521",
+  "name": "Power Cable"
+ }
+]
