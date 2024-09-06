@@ -1,15 +1,16 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:Mobile-{model}-{###}",
  "creation": "2024-09-02 13:49:12.125163",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "brand",
   "model",
+  "brand",
   "charger",
-  "delivery_date",
   "employee_name",
+  "delivery_date",
   "column_break_tknl",
   "serial_number",
   "ram",
@@ -21,27 +22,41 @@
   {
    "fieldname": "brand",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Brand",
    "options": "t-Brand"
   },
   {
    "fieldname": "model",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Model"
   },
   {
    "fieldname": "serial_number",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Serial Number"
   },
   {
    "fieldname": "ram",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Ram"
   },
   {
    "fieldname": "storage",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Storage"
   },
   {
@@ -52,11 +67,17 @@
   {
    "fieldname": "color",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Color"
   },
   {
    "fieldname": "charger",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Charger",
    "options": "\nYes - Full Charger\nYes - Only Cable\nNo Charger"
   },
@@ -68,6 +89,9 @@
   {
    "fieldname": "employee_name",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Employee Name",
    "options": "T Employee"
   },
@@ -78,10 +102,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 15:15:09.617860",
+ "modified": "2024-09-04 16:37:59.146183",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Mobile Phone",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

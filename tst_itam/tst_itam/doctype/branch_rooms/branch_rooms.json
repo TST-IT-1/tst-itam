@@ -48,8 +48,13 @@
  ],
  "image_field": "img",
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-03 11:42:24.498254",
+ "links": [
+  {
+   "link_doctype": "T Employee",
+   "link_fieldname": "t_br"
+  }
+ ],
+ "modified": "2024-09-04 18:06:36.278714",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Branch Rooms",

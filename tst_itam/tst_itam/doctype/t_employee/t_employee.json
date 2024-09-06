@@ -17,6 +17,7 @@
   "phone_number",
   "personal_email",
   "data_jgin",
+  "t_br",
   "section_break_efkf",
   "table_ftkc",
   "credential"
@@ -47,6 +48,8 @@
   {
    "fieldname": "position",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Position "
   },
   {
@@ -103,6 +106,12 @@
    "fieldtype": "Table",
    "label": "Credential",
    "options": "Credential-table"
+  },
+  {
+   "fieldname": "t_br",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch Rooms"
   }
  ],
  "hide_toolbar": 1,
@@ -124,7 +133,7 @@
    "link_fieldname": "employee_name"
   }
  ],
- "modified": "2024-09-04 13:32:38.330957",
+ "modified": "2024-09-04 18:05:26.868268",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "T Employee",

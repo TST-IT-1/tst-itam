@@ -1,16 +1,18 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:",
  "creation": "2024-09-02 15:43:55.246889",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "basic_information_section",
+  "device_category",
   "brand",
   "model",
-  "device_category",
   "column_break_lxwg",
   "branch",
+  "room",
   "network_information_section",
   "mac_address",
   "ip_address",
@@ -24,17 +26,25 @@
   {
    "fieldname": "brand",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Brand",
    "options": "t-Brand"
   },
   {
    "fieldname": "model",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Model"
   },
   {
    "fieldname": "device_category",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Device Category ",
    "options": "\nRouter\nSwitch\nManaged Switch\nAccess Point\nFirewall"
   },
@@ -45,6 +55,9 @@
   {
    "fieldname": "branch",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Branch",
    "options": "Company Branch"
   },
@@ -56,11 +69,17 @@
   {
    "fieldname": "mac_address",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Mac Address"
   },
   {
    "fieldname": "ip_address",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "IP Address"
   },
   {
@@ -92,14 +111,21 @@
    "fieldname": "basic_information_section",
    "fieldtype": "Section Break",
    "label": "Basic Information"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Room",
+   "options": "Branch Rooms"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 15:59:20.277967",
+ "modified": "2024-09-04 16:43:45.730734",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Network Device",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

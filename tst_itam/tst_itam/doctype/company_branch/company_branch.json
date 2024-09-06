@@ -1,4 +1,5 @@
 {
+ "_user_tags": ",Side Doctypes ",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{branch_name}",
@@ -6,6 +7,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "basic_information_section",
   "branch_name",
   "company",
   "administrator",
@@ -15,29 +17,47 @@
   {
    "fieldname": "branch_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Branch Name"
   },
   {
    "fieldname": "company",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Company",
    "options": "T-Company"
   },
   {
    "fieldname": "administrator",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Administrator",
    "options": "T Employee"
   },
   {
    "fieldname": "llnumber",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Branch Phone Land Line Number"
+  },
+  {
+   "fieldname": "basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-02 15:15:09.769266",
+ "links": [
+  {
+   "link_doctype": "Branch Rooms",
+   "link_fieldname": "branch"
+  }
+ ],
+ "modified": "2024-09-04 16:28:10.634498",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Company Branch",

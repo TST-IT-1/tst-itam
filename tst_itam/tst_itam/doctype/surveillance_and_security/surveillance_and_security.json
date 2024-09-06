@@ -21,6 +21,8 @@
   {
    "fieldname": "device",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Device",
    "options": "\nIP Camera\nAnalog Camera\nNVR\nDVR\nFP Device\nDAC"
   },
@@ -37,17 +39,26 @@
   {
    "fieldname": "ip_address",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "IP Address"
   },
   {
    "fieldname": "brand",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Brand",
    "options": "t-Brand"
   },
   {
    "fieldname": "model",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Model"
   },
   {
@@ -74,13 +85,16 @@
   {
    "fieldname": "branch",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Branch",
    "options": "Company Branch"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-03 11:31:40.700609",
+ "modified": "2024-09-04 16:31:08.263401",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Surveillance and Security",

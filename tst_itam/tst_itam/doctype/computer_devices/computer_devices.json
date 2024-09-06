@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:PC-{branch}-{###}",
+ "autoname": "format:{category}-{branch}#{###}",
  "creation": "2024-09-02 10:50:35.121956",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -44,14 +44,18 @@
   {
    "fieldname": "employee_name",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Employee Name",
    "options": "T Employee"
   },
   {
    "fieldname": "category",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Category ",
-   "options": "\nPC Workstation\nPC Tower\nPC Desktop\nLaptop\nALL IN ONE (AIO)"
+   "options": "\nWorkstation\nTower\nDesktop\nLaptop\nAIO"
   },
   {
    "fieldname": "serial_number",
@@ -67,6 +71,8 @@
   {
    "fieldname": "condition",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Condition",
    "options": "\nBrand New\nUSED"
   },
@@ -77,11 +83,15 @@
   {
    "fieldname": "model",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Model"
   },
   {
    "fieldname": "brand",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Brand",
    "options": "t-Brand"
   },
@@ -173,6 +183,8 @@
   {
    "fieldname": "branch",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Branch",
    "options": "Company Branch"
   },
@@ -195,7 +207,7 @@
    "link_fieldname": "computer"
   }
  ],
- "modified": "2024-09-04 14:49:57.886711",
+ "modified": "2024-09-06 15:49:25.197694",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Computer Devices",

@@ -13,52 +13,8 @@
   "personal_email": "nawaz@tst.ly",
   "phone_number": null,
   "position": "General Manager / IT Manager",
+  "t_br": null,
   "table_ftkc": []
- },
- {
-  "copmany": "TST",
-  "credential": [
-   {
-    "employee_name": "Kirollos Wahba",
-    "parent": "Kirollos Wahba",
-    "parentfield": "credential",
-    "parenttype": "T Employee",
-    "server": null,
-    "service": "Mail",
-    "user__id": "Kirollos@tst.ly-Mail"
-   }
-  ],
-  "data_jgin": null,
-  "docstatus": 0,
-  "doctype": "T Employee",
-  "emp_name": "Kirollos Wahba",
-  "gender": "Male",
-  "manager": "Shahnawaz khan",
-  "modified": "2024-09-03 15:19:16.488711",
-  "name": "Kirollos Wahba",
-  "personal_email": "kirollos@tst.ly",
-  "phone_number": "+971-561840907",
-  "position": "IT Engineer",
-  "table_ftkc": [
-   {
-    "computer": "ci97c868hb",
-    "employee_name": "Kirollos Wahba",
-    "mobile": null,
-    "parent": "Kirollos Wahba",
-    "parentfield": "table_ftkc",
-    "parenttype": "T Employee",
-    "sim_card": null
-   },
-   {
-    "computer": null,
-    "employee_name": "Kirollos Wahba",
-    "mobile": "9nqkssd3r1",
-    "parent": "Kirollos Wahba",
-    "parentfield": "table_ftkc",
-    "parenttype": "T Employee",
-    "sim_card": null
-   }
-  ]
  },
  {
   "copmany": "ESNAD",
@@ -84,6 +40,53 @@
   "personal_email": null,
   "phone_number": "",
   "position": null,
+  "t_br": null,
   "table_ftkc": []
+ },
+ {
+  "copmany": "TST",
+  "credential": [
+   {
+    "employee_name": "Kirollos Wahba",
+    "parent": "Kirollos Wahba",
+    "parentfield": "credential",
+    "parenttype": "T Employee",
+    "server": null,
+    "service": "Mail",
+    "user__id": "Kirollos@tst.ly-Mail"
+   },
+   {
+    "employee_name": "Kirollos Wahba",
+    "parent": "Kirollos Wahba",
+    "parentfield": "credential",
+    "parenttype": "T Employee",
+    "server": "mail.esnadly.com",
+    "service": "Mail",
+    "user__id": "admin@esnadly.com-Mail"
+   }
+  ],
+  "data_jgin": null,
+  "docstatus": 0,
+  "doctype": "T Employee",
+  "emp_name": "Kirollos Wahba",
+  "gender": "Male",
+  "manager": "Shahnawaz khan",
+  "modified": "2024-09-04 17:46:18.406242",
+  "name": "Kirollos Wahba",
+  "personal_email": "kirollos@tst.ly",
+  "phone_number": "+971-561840907",
+  "position": "IT Engineer",
+  "t_br": null,
+  "table_ftkc": [
+   {
+    "computer": "ci97c868hb",
+    "employee_name": "Kirollos Wahba",
+    "mobile": "Mobile-A15-002",
+    "parent": "Kirollos Wahba",
+    "parentfield": "table_ftkc",
+    "parenttype": "T Employee",
+    "sim_card": "+971-0561840907"
+   }
+  ]
  }
 ]

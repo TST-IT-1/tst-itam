@@ -22,8 +22,17 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-02 11:41:05.231706",
+ "links": [
+  {
+   "link_doctype": "Company Branch",
+   "link_fieldname": "company"
+  },
+  {
+   "link_doctype": "Branch Rooms",
+   "link_fieldname": "company"
+  }
+ ],
+ "modified": "2024-09-04 15:34:25.606496",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "T-Company",

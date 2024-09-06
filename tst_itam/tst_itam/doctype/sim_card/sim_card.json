@@ -11,13 +11,17 @@
   "plan",
   "service_provider",
   "employee_name",
-  "handover_scanned_form"
+  "handover_scanned_form",
+  "delivery_date"
  ],
  "fields": [
   {
    "default": "+971-",
    "fieldname": "phone_number",
    "fieldtype": "Phone",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Phone Number"
   },
   {
@@ -28,17 +32,26 @@
   {
    "fieldname": "plan",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Plan"
   },
   {
    "fieldname": "service_provider",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Service Provider",
    "options": "\nEtisalat\nDu\nVirgin"
   },
   {
    "fieldname": "employee_name",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Employee Name",
    "options": "T Employee"
   },
@@ -46,11 +59,16 @@
    "fieldname": "handover_scanned_form",
    "fieldtype": "Attach",
    "label": "Handover Scanned Form"
+  },
+  {
+   "fieldname": "delivery_date",
+   "fieldtype": "Date",
+   "label": "Delivery Date "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 15:15:09.488189",
+ "modified": "2024-09-04 16:35:33.076724",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Sim Card",

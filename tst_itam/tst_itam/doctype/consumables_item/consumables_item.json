@@ -18,6 +18,8 @@
   {
    "fieldname": "branch",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Branch",
    "options": "Company Branch"
   },
@@ -35,12 +37,16 @@
   {
    "fieldname": "con_cat",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Consumables Category ",
    "options": "Consumables Categories"
   },
   {
    "fieldname": "computer",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Computer",
    "options": "Computer Devices"
   },
@@ -55,7 +61,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 15:10:15.938389",
+ "modified": "2024-09-04 16:28:35.125490",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Consumables Item",

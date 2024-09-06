@@ -19,12 +19,16 @@
   {
    "fieldname": "device_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Device Type",
    "options": "\nMouse\nKeyboard"
   },
   {
    "fieldname": "model",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Model"
   },
   {
@@ -40,12 +44,16 @@
   {
    "fieldname": "brand",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Brand",
    "options": "t-Brand"
   },
   {
    "fieldname": "branch",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Branch",
    "options": "Company Branch"
   },
@@ -57,18 +65,20 @@
    "fieldname": "connectivity",
    "fieldtype": "Select",
    "label": "Connectivity ",
-   "options": "\nEthernet\nWI-FI\nCable"
+   "options": "\nEthernet\nWireless\nCable"
   },
   {
    "fieldname": "computer",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Linked to PC ",
    "options": "Computer Devices"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 14:49:12.000750",
+ "modified": "2024-09-04 16:29:30.471898",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Accessories",

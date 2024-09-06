@@ -1,18 +1,20 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{category}-{branch}-{###}",
  "creation": "2024-09-02 15:37:49.801921",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "brand",
-  "model",
-  "branch",
   "category",
+  "model",
+  "brand",
   "connection",
   "serial_number",
   "ink",
   "column_break_ctee",
+  "branch",
+  "room",
   "ip_address",
   "mac_address",
   "snmp_community",
@@ -22,23 +24,34 @@
   {
    "fieldname": "brand",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Brand",
    "options": "t-Brand"
   },
   {
    "fieldname": "branch",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Branch",
-   "options": "t-Brand"
+   "options": "Company Branch"
   },
   {
    "fieldname": "model",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Model"
   },
   {
    "fieldname": "category",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Category ",
    "options": "\nPrinter\nCopier Machine\nPrinter and Scanner\nScanner"
   },
@@ -46,7 +59,7 @@
    "fieldname": "connection",
    "fieldtype": "Select",
    "label": "Connection",
-   "options": "\nEthernet\nWi-Fi\nEthernet and Wi-Fi"
+   "options": "\nEthernet\nWireless\nEthernet and Wireless"
   },
   {
    "fieldname": "serial_number",
@@ -56,6 +69,9 @@
   {
    "fieldname": "ip_address",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "IP Address"
   },
   {
@@ -82,14 +98,24 @@
   {
    "fieldname": "column_break_ctee",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Room",
+   "options": "Branch Rooms"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 15:43:39.502850",
+ "modified": "2024-09-04 16:42:32.164971",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Printers",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
