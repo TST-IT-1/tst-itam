@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{category}-{branch}#{###}",
+ "autoname": "format:{category}-{branch}-{####}",
  "creation": "2024-09-02 10:50:35.121956",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -207,7 +207,7 @@
    "link_fieldname": "computer"
   }
  ],
- "modified": "2024-09-06 15:49:25.197694",
+ "modified": "2024-09-09 11:26:17.864060",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Computer Devices",
