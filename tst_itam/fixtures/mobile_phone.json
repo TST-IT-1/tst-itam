@@ -1,5 +1,6 @@
 [
  {
+  "branch": null,
   "brand": "Samsung",
   "charger": "Yes - Only Cable",
   "color": "Black",
@@ -16,6 +17,7 @@
   "storage": "128 GB"
  },
  {
+  "branch": null,
   "brand": "Samsung",
   "charger": "Yes - Full Charger",
   "color": "Red",

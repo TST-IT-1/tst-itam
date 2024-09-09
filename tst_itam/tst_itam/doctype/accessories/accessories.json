@@ -13,7 +13,8 @@
   "branch",
   "serial_number",
   "color",
-  "connectivity"
+  "connectivity",
+  "room"
  ],
  "fields": [
   {
@@ -74,11 +75,17 @@
    "in_standard_filter": 1,
    "label": "Linked to PC ",
    "options": "Computer Devices"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Room",
+   "options": "Branch Rooms"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 16:29:30.471898",
+ "modified": "2024-09-09 11:11:42.407231",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Accessories",

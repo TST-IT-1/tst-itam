@@ -52,9 +52,33 @@
   {
    "link_doctype": "T Employee",
    "link_fieldname": "t_br"
+  },
+  {
+   "link_doctype": "Computer Devices",
+   "link_fieldname": "room"
+  },
+  {
+   "link_doctype": "Network Device",
+   "link_fieldname": "room"
+  },
+  {
+   "link_doctype": "Printers",
+   "link_fieldname": "room"
+  },
+  {
+   "link_doctype": "Accessories",
+   "link_fieldname": "room"
+  },
+  {
+   "link_doctype": "Consumables Item",
+   "link_fieldname": "room"
+  },
+  {
+   "link_doctype": "Surveillance and Security",
+   "link_fieldname": "room"
   }
  ],
- "modified": "2024-09-04 18:06:36.278714",
+ "modified": "2024-09-09 11:12:04.833922",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Branch Rooms",

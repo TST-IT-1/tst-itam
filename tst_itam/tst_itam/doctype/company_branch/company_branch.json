@@ -55,9 +55,33 @@
   {
    "link_doctype": "Branch Rooms",
    "link_fieldname": "branch"
+  },
+  {
+   "link_doctype": "Computer Devices",
+   "link_fieldname": "branch"
+  },
+  {
+   "link_doctype": "Printers",
+   "link_fieldname": "branch"
+  },
+  {
+   "link_doctype": "Network Device",
+   "link_fieldname": "branch"
+  },
+  {
+   "link_doctype": "Surveillance and Security",
+   "link_fieldname": "branch"
+  },
+  {
+   "link_doctype": "Consumables Item",
+   "link_fieldname": "branch"
+  },
+  {
+   "link_doctype": "Mobile Phone",
+   "link_fieldname": "branch"
   }
  ],
- "modified": "2024-09-04 16:28:10.634498",
+ "modified": "2024-09-09 11:17:13.491547",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Company Branch",

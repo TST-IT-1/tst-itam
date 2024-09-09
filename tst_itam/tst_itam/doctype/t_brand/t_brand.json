@@ -1,4 +1,5 @@
 {
+ "_user_tags": ",Side Doctypes ",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{brand_name}",
@@ -16,8 +17,29 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-02 13:54:40.755833",
+ "links": [
+  {
+   "link_doctype": "Computer Devices",
+   "link_fieldname": "Brand"
+  },
+  {
+   "link_doctype": "Mobile Phone",
+   "link_fieldname": "Brand"
+  },
+  {
+   "link_doctype": "Printers",
+   "link_fieldname": "Brand"
+  },
+  {
+   "link_doctype": "Accessories",
+   "link_fieldname": "Brand"
+  },
+  {
+   "link_doctype": "Surveillance and Security",
+   "link_fieldname": "Brand"
+  }
+ ],
+ "modified": "2024-09-09 10:28:47.535122",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "t-Brand",

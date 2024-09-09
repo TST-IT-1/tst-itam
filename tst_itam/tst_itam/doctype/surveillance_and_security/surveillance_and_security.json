@@ -14,6 +14,7 @@
   "mac_address",
   "ip_address",
   "connectivity",
+  "room",
   "section_break_fvgt",
   "dac_users_table"
  ],
@@ -90,11 +91,17 @@
    "in_standard_filter": 1,
    "label": "Branch",
    "options": "Company Branch"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Room",
+   "options": "Branch Rooms"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 16:31:08.263401",
+ "modified": "2024-09-09 11:11:03.596792",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Surveillance and Security",

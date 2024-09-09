@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:",
+ "autoname": "format:{device_category}-{branch}_{###}",
  "creation": "2024-09-02 15:43:55.246889",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -121,7 +121,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 16:43:45.730734",
+ "modified": "2024-09-07 10:17:51.847816",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Network Device",

@@ -16,7 +16,8 @@
   "ram",
   "storage",
   "color",
-  "size"
+  "size",
+  "branch"
  ],
  "fields": [
   {
@@ -98,11 +99,17 @@
   {
    "fieldname": "column_break_tknl",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Company Branch"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 16:37:59.146183",
+ "modified": "2024-09-09 11:17:11.550199",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Mobile Phone",
