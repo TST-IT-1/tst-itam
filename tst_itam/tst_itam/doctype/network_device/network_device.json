@@ -13,6 +13,7 @@
   "column_break_lxwg",
   "branch",
   "room",
+  "client_name",
   "network_information_section",
   "mac_address",
   "ip_address",
@@ -117,11 +118,17 @@
    "fieldtype": "Link",
    "label": "Room",
    "options": "Branch Rooms"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-07 10:17:51.847816",
+ "modified": "2024-09-10 15:23:23.949505",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Network Device",

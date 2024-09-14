@@ -11,6 +11,7 @@
   "charger",
   "employee_name",
   "delivery_date",
+  "client_name",
   "column_break_tknl",
   "serial_number",
   "ram",
@@ -105,11 +106,17 @@
    "fieldtype": "Link",
    "label": "Branch",
    "options": "Company Branch"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-09 11:17:11.550199",
+ "modified": "2024-09-10 15:22:35.372146",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Mobile Phone",

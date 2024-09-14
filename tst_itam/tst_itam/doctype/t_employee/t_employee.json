@@ -12,11 +12,12 @@
   "copmany",
   "position",
   "gender",
+  "client_name",
   "column_break_qgyi",
   "manager",
   "phone_number",
   "personal_email",
-  "data_jgin",
+  "branch",
   "t_br",
   "section_break_efkf",
   "table_ftkc",
@@ -34,7 +35,8 @@
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
-   "label": "Employee Name"
+   "label": "Employee Name",
+   "reqd": 1
   },
   {
    "fieldname": "copmany",
@@ -43,7 +45,8 @@
    "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Copmany",
-   "options": "T-Company"
+   "options": "T-Company",
+   "reqd": 1
   },
   {
    "fieldname": "position",
@@ -72,11 +75,12 @@
   },
   {
    "fieldname": "phone_number",
-   "fieldtype": "Phone",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
-   "label": "Phone Number"
+   "label": "Phone Number",
+   "reqd": 1
   },
   {
    "fieldname": "personal_email",
@@ -84,11 +88,8 @@
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
-   "label": "Email"
-  },
-  {
-   "fieldname": "data_jgin",
-   "fieldtype": "Data"
+   "label": "Email",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_efkf",
@@ -110,8 +111,20 @@
   {
    "fieldname": "t_br",
    "fieldtype": "Link",
-   "label": "Branch",
+   "label": "Branch Room",
    "options": "Branch Rooms"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Company Branch"
   }
  ],
  "hide_toolbar": 1,
@@ -133,7 +146,7 @@
    "link_fieldname": "employee_name"
   }
  ],
- "modified": "2024-09-04 18:05:26.868268",
+ "modified": "2024-09-12 12:10:49.498916",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "T Employee",
@@ -153,6 +166,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

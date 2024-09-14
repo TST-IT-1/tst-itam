@@ -1,1 +1,15 @@
-[]
+[
+ {
+  "computer": "AIO-TECOM-0042",
+  "docstatus": 0,
+  "doctype": "emp-files-table",
+  "employee_name": "Duaa Ahmed",
+  "mobile": "Mobile-Realme C53-041",
+  "modified": "2024-09-12 11:07:50.967930",
+  "name": "25c51k4f6i",
+  "parent": "Duaa Ahmed",
+  "parentfield": "table_ftkc",
+  "parenttype": "T Employee",
+  "sim_card": "+971-561765386"
+ }
+]

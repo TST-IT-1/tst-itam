@@ -7,7 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "company_infromation_section",
-  "company_name"
+  "company_name",
+  "client_name"
  ],
  "fields": [
   {
@@ -19,6 +20,12 @@
    "fieldname": "company_name",
    "fieldtype": "Data",
    "label": "Company Name"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -32,7 +39,7 @@
    "link_fieldname": "company"
   }
  ],
- "modified": "2024-09-04 15:34:25.606496",
+ "modified": "2024-09-10 15:23:59.421799",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "T-Company",

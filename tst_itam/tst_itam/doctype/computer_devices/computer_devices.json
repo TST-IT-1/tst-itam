@@ -20,6 +20,7 @@
   "status",
   "processor",
   "ram",
+  "station_number",
   "column_break_iokm",
   "gpu",
   "img",
@@ -27,13 +28,17 @@
   "storage_category",
   "size",
   "color",
+  "client",
   "remote_access_and_network_information_section",
   "any_desk",
   "team_viewer",
   "computer_name",
   "column_break_zebr",
   "mac_address",
-  "ip_address"
+  "ip_address",
+  "bar_code",
+  "notes_section",
+  "notes"
  ],
  "fields": [
   {
@@ -45,6 +50,7 @@
    "fieldname": "employee_name",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Employee Name",
    "options": "T Employee"
@@ -60,6 +66,9 @@
   {
    "fieldname": "serial_number",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Serial Number"
   },
   {
@@ -154,6 +163,9 @@
   {
    "fieldname": "any_desk",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Any Desk"
   },
   {
@@ -193,6 +205,38 @@
    "fieldtype": "Link",
    "label": "Room",
    "options": "Branch Rooms"
+  },
+  {
+   "fieldname": "station_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Station Number"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes "
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes "
+  },
+  {
+   "fieldname": "bar_code",
+   "fieldtype": "Barcode",
+   "label": "Bar Code"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Client",
+   "options": "Client"
   }
  ],
  "image_field": "img",
@@ -205,9 +249,13 @@
   {
    "link_doctype": "Accessories",
    "link_fieldname": "computer"
+  },
+  {
+   "link_doctype": "Displays and Monitors",
+   "link_fieldname": "computer"
   }
  ],
- "modified": "2024-09-09 11:26:17.864060",
+ "modified": "2024-09-13 15:16:48.553016",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Computer Devices",

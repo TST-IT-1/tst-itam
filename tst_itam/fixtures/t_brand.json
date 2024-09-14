@@ -1,5 +1,47 @@
 [
  {
+  "brand_name": "Xiaomi",
+  "docstatus": 0,
+  "doctype": "t-Brand",
+  "modified": "2024-09-10 13:22:35.460377",
+  "name": "Xiaomi"
+ },
+ {
+  "brand_name": "Realme",
+  "docstatus": 0,
+  "doctype": "t-Brand",
+  "modified": "2024-09-10 13:25:42.827950",
+  "name": "Realme"
+ },
+ {
+  "brand_name": "Honor",
+  "docstatus": 0,
+  "doctype": "t-Brand",
+  "modified": "2024-09-10 13:30:14.376658",
+  "name": "Honor"
+ },
+ {
+  "brand_name": "Sony",
+  "docstatus": 0,
+  "doctype": "t-Brand",
+  "modified": "2024-09-13 16:15:38.000849",
+  "name": "Sony"
+ },
+ {
+  "brand_name": "Nobel",
+  "docstatus": 0,
+  "doctype": "t-Brand",
+  "modified": "2024-09-13 16:16:45.581482",
+  "name": "Nobel"
+ },
+ {
+  "brand_name": "Toshiba",
+  "docstatus": 0,
+  "doctype": "t-Brand",
+  "modified": "2024-09-14 11:11:32.241352",
+  "name": "Toshiba"
+ },
+ {
   "brand_name": "Samsung",
   "docstatus": 0,
   "doctype": "t-Brand",
@@ -12,5 +54,12 @@
   "doctype": "t-Brand",
   "modified": "2024-09-04 16:40:22.387462",
   "name": "HP"
+ },
+ {
+  "brand_name": "DELL",
+  "docstatus": 0,
+  "doctype": "t-Brand",
+  "modified": "2024-09-09 14:12:02.573930",
+  "name": "DELL"
  }
 ]

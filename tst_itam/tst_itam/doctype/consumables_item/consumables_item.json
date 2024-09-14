@@ -11,6 +11,7 @@
   "column_break_plrq",
   "branch",
   "room",
+  "client_name",
   "section_break_yuvz",
   "details"
  ],
@@ -57,11 +58,17 @@
   {
    "fieldname": "section_break_yuvz",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 16:28:35.125490",
+ "modified": "2024-09-10 15:24:08.573872",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Consumables Item",

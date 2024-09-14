@@ -11,7 +11,8 @@
   "branch_name",
   "company",
   "administrator",
-  "llnumber"
+  "llnumber",
+  "client_name"
  ],
  "fields": [
   {
@@ -48,6 +49,12 @@
    "fieldname": "basic_information_section",
    "fieldtype": "Section Break",
    "label": "Basic Information"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -81,7 +88,7 @@
    "link_fieldname": "branch"
   }
  ],
- "modified": "2024-09-09 11:17:13.491547",
+ "modified": "2024-09-10 15:22:19.129484",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Company Branch",

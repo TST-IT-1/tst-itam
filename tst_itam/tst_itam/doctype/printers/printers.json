@@ -12,13 +12,18 @@
   "connection",
   "serial_number",
   "ink",
+  "client_name",
   "column_break_ctee",
   "branch",
   "room",
   "ip_address",
   "mac_address",
   "snmp_community",
-  "snmp_pass"
+  "snmp_pass",
+  "img",
+  "section_break_iuty",
+  "notes_column",
+  "notes"
  ],
  "fields": [
   {
@@ -87,7 +92,7 @@
   },
   {
    "fieldname": "snmp_community",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "SNMP Community"
   },
   {
@@ -107,11 +112,38 @@
    "in_standard_filter": 1,
    "label": "Room",
    "options": "Branch Rooms"
+  },
+  {
+   "fieldname": "img",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "img"
+  },
+  {
+   "fieldname": "section_break_iuty",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes_column",
+   "fieldtype": "Column Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
   }
  ],
+ "image_field": "img",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 16:42:32.164971",
+ "modified": "2024-09-10 15:21:38.592750",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Printers",

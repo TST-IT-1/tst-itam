@@ -26,5 +26,12 @@
   "doctype": "Consumables Categories",
   "modified": "2024-09-03 11:47:14.148521",
   "name": "Power Cable"
+ },
+ {
+  "con_name": "Display Cable",
+  "docstatus": 0,
+  "doctype": "Consumables Categories",
+  "modified": "2024-09-10 14:41:06.076226",
+  "name": "Display Cable"
  }
 ]

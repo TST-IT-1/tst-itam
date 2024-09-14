@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "administrator": null,
+  "branch_name": "Massaraf Tower 1601",
+  "client_name": null,
+  "company": null,
+  "docstatus": 0,
+  "doctype": "Company Branch",
+  "llnumber": null,
+  "modified": "2024-09-10 15:36:37.268231",
+  "name": "Massaraf Tower 1601"
+ },
+ {
+  "administrator": "Juno",
+  "branch_name": "Churchill",
+  "client_name": null,
+  "company": "ESNAD",
+  "docstatus": 0,
+  "doctype": "Company Branch",
+  "llnumber": "0123456",
+  "modified": "2024-09-10 14:20:09.125584",
+  "name": "Churchill"
+ },
+ {
+  "administrator": null,
+  "branch_name": "TECOM",
+  "client_name": null,
+  "company": "ESNAD",
+  "docstatus": 0,
+  "doctype": "Company Branch",
+  "llnumber": null,
+  "modified": "2024-09-09 14:13:17.312763",
+  "name": "TECOM"
+ }
+]

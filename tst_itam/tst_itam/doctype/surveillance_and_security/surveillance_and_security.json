@@ -9,6 +9,7 @@
   "brand",
   "model",
   "branch",
+  "client_name",
   "column_break_ajlk",
   "serial_number",
   "mac_address",
@@ -97,11 +98,17 @@
    "fieldtype": "Link",
    "label": "Room",
    "options": "Branch Rooms"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-09 11:11:03.596792",
+ "modified": "2024-09-10 15:23:14.113360",
  "modified_by": "Administrator",
  "module": "TST ITAM",
  "name": "Surveillance and Security",
