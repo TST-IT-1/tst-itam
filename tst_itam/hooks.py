@@ -5,7 +5,7 @@ app_description = "TST ITAM"
 app_email = "kirollos@tst.ly"
 app_license = "mit"
 
-fixtures = ["ip-address","Credential-table","emp-files-table","Consumables Item","Consumables Categories","Branch Rooms","dac-user-table","Accessories","Surveillance and Security","Network Device","Printers","T Employee","Company Branch","t-Brand","Mobile Phone","Sim Card","cred Service","Credential","T-Company","Computer Devices"
+fixtures = ["Client","Displays and Monitors","ip-address","Credential-table","emp-files-table","Consumables Item","Consumables Categories","Branch Rooms","dac-user-table","Accessories","Surveillance and Security","Network Device","Printers","T Employee","Company Branch","t-Brand","Mobile Phone","Sim Card","cred Service","Credential","T-Company","Computer Devices"
 
             ]
 # Apps
@@ -14,7 +14,7 @@ fixtures = ["ip-address","Credential-table","emp-files-table","Consumables Item"
 # required_apps = []
 
 #Each item in the list will be shown as an app in the apps page
-add_to_apps_screen = [
+'''add_to_apps_screen = [
  	{
  		"name": "tst_itam",
  		"logo": "/assets/tst_itam/logo.png",
@@ -22,7 +22,7 @@ add_to_apps_screen = [
  		"route": "/tst_itam",
  		"has_permission": "tst_itam.api.permission.has_app_permission"
  	}
- ]
+ ]'''
 
 # Includes in <head>
 # ------------------
